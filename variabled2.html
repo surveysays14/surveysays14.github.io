@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Credit Card/Online Banking Use</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+		<link href="css/override.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</head>
+	<body class="bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <span class="navbar-brand mb-0 pr-3 h1 border-right">Group 14 - Survey Says</span>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="article-discussion.html">Design Articles</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Variable Discussion</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="variabled1.html">Credit Card Use/Online Banking Use</a>
+					<a class="dropdown-item" href="variabled2.html">Credit Card Use and Income/Age Relationship</a>
+					<a class="dropdown-item" href="variabled3.html">Online Banking Use and Age/Income Relationship</a>
+				</div>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+		
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="jumbotron mt-3 pt-3 pb-3">
+					<h1 class="display-4">Credit Card Use and Income/Age Relationship</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h1 class="lead mt-2">Credit Card Use and Age:</h1>
+					<p class="indent lh-2">By analyzing the bar graph, we can see that within the “not at all concerned” group, the majority (47%) of respondents come from the 16-34 year old age demographic.</p>
+					<p class="indent lh-2">Within the “very concerned” group, the opposite trend is shown. The majority of respondents (60%) fall within the 45+ age demographic.</p>
+					<p class="indent lh-2">The “concerned” group takes on more of a transitional pattern between the “not at all concerned” and the “very concerned”, as the data is shows a relatively normal distribution.</p>
+					<p class="indent lh-2">Looking at the information and patterns shown in both the frequency distribution table and the bar graph, it is evident that the data shown supports our hypothesis, which states that concern with online financial systems increases with age.</p>
+					<p class="indent lh-2">Looking at the information and patterns shown in both the frequency distribution table and the bar graph, it is evident that the data shown supports our hypothesis, which states that concern with online financial systems increases with age.</p>
+					<p class="indent lh-2">This means that businesses could be doing more to address the generational gap between the young and old in order to reduce concerns.</p>
+					<p class="indent lh-2">Additionally this data could suggest that as people age and technology advances consumers naturally become more suspicious.</p>
+				</div>
+				<div class="col">
+					<img class="img-fluid rounded float-right pt-4 pb-4" src="images/variabled2-ccuseage-bar.png">
+					<img class="img-fluid rounded float-right pb-4" src="images/variabled2-ccuseage-freq.png">
+					<img class="img-fluid float-right" src="images/variabled2-ccuseage-legend.png">
+					<p class="text-muted float-right">SDA@Chass CIUS, 2012 - Person File, Variables ps_q02 by gcagegr6</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="indent lh-2 mt-1">The ‘Age’ variable in this case would represent a discrete random variable, simply because of the fact that although the data is categorized within an interval, the value must be an integer, i.e. the age value cannot be ‘16.7’. For example, within the interval of 16-24, the data variable ‘Age’ could be represented by any numerical integer value between 16-24, thereby classifying it as a discrete random variable.</p>
+					<p class="indent lh-2">As seen in the frequency distribution, within the 3 age demographics ‘16-24’, ‘25-34’, ‘35-44’ the observed values were all higher than the expected values in the ‘Not at all concerned’ category. Whilst on the other hand, in the ‘Very concerned’ category the observed values were lower than the expected. Overall, this shows that within these 3 age demographics, the data supports our original hypothesis that younger users have less concern with online credit card usage, less users are ‘very concerned’ and more fall within the ‘not at all concerned’ categories.</p>
+					<p class="indent lh-2">The opposite trend occurs in the 3 remaining age demographics of ‘45-54’, ‘55-64’, and ‘65+’. The values seen in the ‘very concerned’ were higher than expected, and those in the ‘not at all concerned’ were lower than expected, once again supporting our original hypothesis.</p>
+					<p>If we isolate and look at the age variable by itself, we can find the following calculations:</p>
+					<ul>
+	    				<li>Mean: 3.58</li>
+						<li>Variance: 2.83</li>
+						<li>Std Dev: 1.68</li>
+					</ul>
+				</div>
+				<div class="col-3 text-center">
+					<img class="img-fluid rounded" src="images/variabled2-age-freq.png">
+					<p class="text-muted float-right">SDA@Chass CIUS, 2012 - Person File, Variable gcagegr6</p>
+				</div>
+			</div>
+		    <div class="row">
+				<div class="col">
+					<p class="indent lh-2 mt-1">Using these calculations, we can then find out the z-score for any given ‘age’ value within the dataset. The Z-score represents how many standard deviations the data value is from the mean of the sample, under the assumption that the data falls under the normal distribution category.</p>
+					<p class="indent lh-2">If we use, for example, the age value 5, which represent the interval 55-64, we can find using the following formula that the Z-score is 1.68, meaning it is 1.68 standard deviations away from the mean of 3.58.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h1 class="lead mt-2">Credit Card Use and Income:</h1>
+					<p class="indent lh-2">In this case, the variable ‘income’ can be considered as a continuous random variable, since it may be represented by any numerical value between the specified intervals. For example, within the first quintile, the random variable ‘income’ may take on any numerical value between $0 and $25,000.</p>
+					<p class="indent lh-2">As evident in the frequency distribution table, the lower income quintiles show a higher than expected value within the “very concerned” category. The opposite trend can also be seen in the higher income quintiles, where the “very concerned” category shows lower than expected values. This also supports our original hypothesis that respondents with higher income would be less concerned with online credit card usage and transactions, and lower income groups would show higher levels of concern.</p>
+					<p class="indent lh-2">Furthermore, as this survey collects information from a specific sample group, which in turn represents the general public as a population. Therefore, we can apply the law of large numbers and assume that as the sample size increases, its sample mean will approach the population mean as well.</p>
+					<p>If we isolate and look at the income variable by itself, we can find the following calculations:</p>
+					<ul>
+						<li>Mean: 3.26</li>
+						<li>Variance: 1.92</li>
+						<li>Std Dev: 1.38</li>
+					</ul>
+					<p class="indent lh-2">Using these calculations, we can then find out the z-score for any given ‘income’ value within the dataset. The Z-score represents how many standard deviations the data value is from the mean of the sample, under the assumption that the data falls under the normal distribution category.</p>
+					<p class="indent lh-2">If we use, for example, the income value 4, which represent the interval ‘$70,000-$100,000’, we can find using the following formula that the Z-score is 0.536, meaning it is 0.536 standard deviations away from the mean of 3.26.</p>
+				</div>
+				<div class="col">
+					<img class="img-fluid rounded pt-4 pb-4 img-50" src="images/variabled2-ccuseinc-bar.jpg">
+					<img class="img-fluid rounded pb-4" src="images/variabled2-ccuseinc-freq.jpg">
+					<img class="img-fluid float-right" src="images/variabled2-ccuseage-legend.png">
+					<p class="text-muted float-right">SDA@Chass CIUS, 2012 - Person File, Variables  ps_q01 by g_hquint</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<img class="img-fluid rounded" height="400px" width="400px" src="images/variabled2-inc-freq.png">
+				</div>
+			</div>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap-4.0.0.js"></script>
+	</body>
+</html>
